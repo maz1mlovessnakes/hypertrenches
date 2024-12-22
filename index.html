@@ -241,7 +241,7 @@
         const timerElement = document.getElementById('timer');
         const prettyClockElement = document.getElementById('prettyClock');
 
-        const startTime = new Date("2024-12-21T08:32:00Z").getTime();
+        const startTime = new Date("2024-12-22T15:39:00Z").getTime();
         const endTime = startTime + 24 * 60 * 60 * 1000;
 
         function updateTimer() {
@@ -250,7 +250,7 @@
 
             if (distance < 0) {
                 timerElement.innerHTML = "00:00:00";
-                prettyClockElement.innerHTML = "Event Ended";
+                prettyClockElement.innerHTML = "Congratulations, we won this fight! The ware isn't over yet tho";
                 return;
             }
 
